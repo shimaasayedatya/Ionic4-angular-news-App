@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{article.title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card padding>
+        <ion-img [src]="article.urlToImage"></ion-img>
+        <!-- <ion-card-header>
+          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+        </ion-card-header> -->
+      
+        <ion-card-content>
+            <ion-card-title>{{article.title}}</ion-card-title>
+    
+         <p>{{article.description}}</p>
+        </ion-card-content>
+      </ion-card>
+
+</ion-content>
